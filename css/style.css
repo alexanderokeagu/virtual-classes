@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .menu li a {
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .menu li a:active{
+    background-color: blueviolet;
+    color:aqua;
+  }
+
+  .menu li a:hover{
+    border-radius: 15px;
+    color: #fff;
+    background: blue;
+
+  }
+  /*.navbar {
+    justify-content: space-between;
+    margin-right: auto;
+  }
+  
