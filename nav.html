@@ -8,25 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-          <a href="index.html"
-          ><img
-            src="/images/WhatsApp Image 2023-02-11 at 13.53.48.jpg"
-            alt="innkeeper-logo"
-            width="70px"
-            height="70px"
-            location="right"
-        /></a>
+  <section class="header">
+      <img src="/images/WhatsApp Image 2023-02-11 at 13.53.48.jpg" alt="logo" width="50" height="50">
+      <div>
+          <ul id="navbar">
+              
+              <li><a class="active" href="#">Home</a></li>
+              
+              <div class="dropdown">
+                  <li><a href="#">Shop</a></li>
+                  <div class="dropdown-content">
+                    <a href="#">Name</a>
+                    <a href="#">Address</a>
+                    <a href="#">Contact</a>
+                  </div>
+                </div>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          
+          </ul>
       </div>
-    <div class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+      <div id="btn">
+          <button>log in</button>
+          <button>Sign up</button>
       </div>
+   </section>
+  
 </body>
 </html>
